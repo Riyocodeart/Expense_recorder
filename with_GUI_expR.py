@@ -190,6 +190,8 @@ root = tk.Tk()
 root.title("Expense Tracker")
 root.configure(bg="#e6f2ff")
 
+# gui box size 
+root.geometry("500x500")
 frame = tk.Frame(root, bg="#e6f2ff")
 frame.pack(pady=20)
 
@@ -202,7 +204,7 @@ tk.Label(frame, text="Description:", bg="#e6f2ff", font=("Arial", 10)).grid(row=
 entry_description = tk.Entry(frame)
 entry_description.grid(row=1, column=1)
 
-categories = list(load_custom_categories().keys()) or ["Groceries", "Travel", "Bills"]
+categories = list(load_custom_categories().keys()) or ["Groceries", "Travel", "Rent","Bills","Food","Entertainment"]
 tk.Label(frame, text="Category:", bg="#e6f2ff", font=("Arial", 10)).grid(row=2, column=0, sticky='w')
 combo_category = ttk.Combobox(frame, values=categories)
 combo_category.grid(row=2, column=1)
