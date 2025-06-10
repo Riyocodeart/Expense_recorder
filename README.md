@@ -6,6 +6,7 @@ output:
 ![view by period](image-3.png)
 ![highest lowest expense](image-4.png)
 ![Search](image-5.png)
+![budget](image-6.png)
 
 This is a personal **Expense Tracker Application** built using **Python** and **Tkinter**. It allows users to easily add, manage, and visualize their daily expenses with both default and custom categories.
 

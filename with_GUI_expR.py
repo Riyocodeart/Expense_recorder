@@ -33,6 +33,93 @@ def save_custom_categories(custom_cats):
     with open(category_file, 'w') as file:
         json.dump(custom_cats, file, indent=4)
 
+# Load budget data                                              ----budget section ----
+def load_budgets():
+    if os.path.exists(budget_file):
+        with open(budget_file, 'r') as file:
+            return json.load(file)
+    return {}
+
+# Save budget data
+def save_budgets(budgets):
+    with open(budget_file, 'w') as file:
+        json.dump(budgets, file, indent=4)
+
+def set_and_check_budgets():
+    data = load_data()
+    if not data:
+        print("No expense data available.")
+        return
+
+    df = pd.DataFrame(data)
+    if "category" not in df.columns or "amount" not in df.columns:
+        messagebox.showerror("Error", "Expense data missing 'category' or 'amount' fields.")
+        return
+
+    category_totals = df.groupby("category")["amount"].sum().to_dict()
+    budgets = load_budgets()
+
+     # GUI window setup
+    win = tk.Toplevel()
+    win.title("Set and Check Budgets")
+    win.geometry("500x600")
+
+    tk.Label(win, text="Set or Update Budgets", font=("Arial", 14, "bold")).pack(pady=10)
+
+    entries = {}
+
+    frame = tk.Frame(win)
+    frame.pack(pady=5)
+
+    for cat in category_totals:
+        spent = category_totals[cat]
+        current_budget = budgets.get(cat, "")
+        
+        row = tk.Frame(frame)
+        row.pack(pady=5, anchor="w", fill="x")
+
+        tk.Label(row, text=f"{cat} - Spent ₹{spent:.2f}", width=30, anchor="w").pack(side=tk.LEFT, padx=5)
+        entry = tk.Entry(row)
+        entry.insert(0, str(current_budget))
+        entry.pack(side=tk.LEFT)
+        entries[cat] = entry
+
+    def save_and_check():
+        for cat, entry in entries.items():
+            try:
+                value = entry.get()
+                if value.strip() != "":
+                    budgets[cat] = float(value)
+            except ValueError:
+                messagebox.showwarning("Invalid Input", f"Invalid budget for '{cat}'. Skipped.")
+
+        save_budgets(budgets)
+
+        result_win = tk.Toplevel()
+        result_win.title("Budget Status")
+        result_win.geometry("400x400")
+        tk.Label(result_win, text="Budget Status", font=("Arial", 14, "bold")).pack(pady=10)
+
+        for cat in category_totals:
+            spent = category_totals[cat]
+            budget = budgets.get(cat)
+            status = ""
+            if budget is not None:
+                if spent > budget:
+                    status = f"⚠ Over Budget: ₹{spent:.2f} / ₹{budget:.2f}"
+                    color = "red"
+                else:
+                    status = f"✅ Within Budget: ₹{spent:.2f} / ₹{budget:.2f}"
+                    color = "green"
+            else:
+                status = f"ℹ No Budget Set - Spent: ₹{spent:.2f}"
+                color = "gray"
+
+            tk.Label(result_win, text=f"{cat}: {status}", fg=color, anchor="w").pack(pady=2, anchor="w", padx=10)
+
+    tk.Button(win, text="Save and Check Budgets", command=save_and_check, bg="blue", fg="white").pack(pady=15)
+
+
 # GUI Functions
 def add_expense():
     try:
@@ -179,8 +266,6 @@ def highest_lowest():
     lowest = df.loc[df['amount'].idxmin()]
     messagebox.showinfo("Extremes", f"Highest: ₹{highest['amount']} - {highest['description']}\nLowest: ₹{lowest['amount']} - {lowest['description']}")
 
-def set_and_check_budgets():
-    messagebox.showinfo("Budgets", "This feature is under development.")
 
 def manage_categories():
     messagebox.showinfo("Manage Categories", "This feature is under development.")
