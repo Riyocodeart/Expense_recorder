@@ -1,8 +1,8 @@
 # 🧾 Expense Tracker GUI (Python + Tkinter)
 output:
 ![Expense recorder system](image.png)
-![summary](image-1.png)
-![Visualization](image-2.png)
+![summary](image-8.png)
+![Visualization](image-7.png)
 ![view by period](image-3.png)
 ![highest lowest expense](image-4.png)
 ![Search](image-5.png)
