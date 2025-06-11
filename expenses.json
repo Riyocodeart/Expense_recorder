@@ -28,5 +28,29 @@
         "description": "dhaniya powder ,kitchenking ,jeera",
         "category": "Groceries",
         "date": "2025-06-10"
+    },
+    {
+        "amount": 26.0,
+        "description": "auto",
+        "category": "Travel",
+        "date": "2025-06-10"
+    },
+    {
+        "amount": 10.0,
+        "description": "train",
+        "category": "Travel",
+        "date": "2025-06-10"
+    },
+    {
+        "amount": 20.0,
+        "description": "Vada pav",
+        "category": "Food",
+        "date": "2025-06-10"
+    },
+    {
+        "amount": 400.0,
+        "description": "usb cabe",
+        "category": "iteams",
+        "date": "2025-06-11"
     }
 ]

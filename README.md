@@ -51,10 +51,7 @@ This is a personal **Expense Tracker Application** built using **Python** and **
 - `JSON`: Local data storage
 - `Openpyxl`: Excel file export
 
-## 📝 Notes
 
-- Default categories are always loaded even if no custom ones exist.
-- Placeholder functions are already set for features like **View by Period**, **Budget**, and **Category Management** — customize them as needed.
 - UI is styled with light pastel colors (`#e6f2ff`) for a clean user experience.
 
 ---
