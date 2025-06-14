@@ -1,12 +1,14 @@
 # 🧾 Expense Tracker GUI (Python + Tkinter)
 output:
 ![Expense recorder system](image.png)
-![summary](image-8.png)
-![Visualization](image-7.png)
+![Summary](image-1.png)
+![Visualization](image-2a.png)
+![Export to excel](image-2.png)
 ![view by period](image-3.png)
 ![highest lowest expense](image-4.png)
-![Search](image-5.png)
+![search](image-8.png)
 ![budget](image-6.png)
+![set budget](image-9.png)
 
 This is a personal **Expense Tracker Application** built using **Python** and **Tkinter**. It allows users to easily add, manage, and visualize their daily expenses with both default and custom categories.
 

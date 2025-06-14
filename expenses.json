@@ -52,5 +52,47 @@
         "description": "usb cabe",
         "category": "iteams",
         "date": "2025-06-11"
+    },
+    {
+        "amount": 25.0,
+        "description": "Orange drink",
+        "category": "Food",
+        "date": "2025-06-11"
+    },
+    {
+        "amount": 466.0,
+        "description": "slippers ,kurkure,hanger,",
+        "category": "iteams",
+        "date": "2025-06-11"
+    },
+    {
+        "amount": 219.0,
+        "description": "jio Prepaid Recharges",
+        "category": "Bills",
+        "date": "2025-06-11"
+    },
+    {
+        "amount": 300.0,
+        "description": "jio recharge",
+        "category": "Bills",
+        "date": "2025-06-11"
+    },
+    {
+        "amount": 40.0,
+        "description": "Pani puri",
+        "category": "Food",
+        "date": "2025-06-11"
+    },
+    {
+        "amount": 60.0,
+        "description": "pani puri",
+        "category": "Food",
+        "date": "2025-06-12"
+    },
+    {
+        "amount": 95.0,
+        "description": "auto,train,taxi",
+        "category": "Travel",
+        "date": "2025-06-13"
     }
 ]
