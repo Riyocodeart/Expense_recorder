@@ -3,24 +3,26 @@ This is a personal **Expense Tracker Application**.It allows users to easily add
 ## 📌 Features
 
 - ✅ **Add Expenses** with amount, description, date, and category.
-- 🗂️ **Default and Custom Categories** supported.
-![Expense recorder system](image.png)
-- **Total expense summary 
-![Summary](image-1.png)
-- 📊 **Visualize Expenses**: View bar charts of your spending by category.
-![Visualization](image-2a.png)
-- ⬆️ **Export to Excel (.xlsx)**.
-![Export to excel](image-2.png)
-- 📆 **View by Period**: Filter expenses by today, last 7 days, or this month.
-![view by period](image-3.png)
-- 📉 **View Highest & Lowest Expenses**.
-![highest lowest expense](image-4.png)
-- 🔍 **Search Functionality**: Search expenses by keyword or date.
-![search](image-8.png)
-- 💰 **Set & Check Budgets**: Define monthly budgets per category and get alerts when overspending.
-![budget](image-6.png)
-![set budget](image-9.png)
-- 🧩 **Category Management**: Add, edit, or delete custom categories.
+- 🗂️ **Default and Custom Categories** supported.<br>
+  
+![Expense recorder system](image.png)<br>
+
+- **Total expense summary<br> 
+![Summary](image-1.png)<br>
+- 📊 **Visualize Expenses**: View bar charts of your spending by category.<br>
+![Visualization](image-2a.png)<br>
+- ⬆️ **Export to Excel (.xlsx)**.<br>
+![Export to excel](image-2.png)<br>
+- 📆 **View by Period**: Filter expenses by today, last 7 days, or this month.<br>
+![view by period](image-3.png)<br>
+- 📉 **View Highest & Lowest Expenses**.<br>
+![highest lowest expense](image-4.png)<br>
+- 🔍 **Search Functionality**: Search expenses by keyword or date.<br>
+![search](image-8.png)<br>
+- 💰 **Set & Check Budgets**: Define monthly budgets per category and get alerts when overspending.<br>
+![budget](image-6.png)<br>
+![set budget](image-9.png)<br>
+- 🧩 **Category Management**: Add, edit, or delete custom categories.<br>
 
 
 
