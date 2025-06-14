@@ -1,28 +1,28 @@
-# 🧾 Expense Tracker GUI (Python + Tkinter)
-output:
-![Expense recorder system](image.png)
-![Summary](image-1.png)
-![Visualization](image-2a.png)
-![Export to excel](image-2.png)
-![view by period](image-3.png)
-![highest lowest expense](image-4.png)
-![search](image-8.png)
-![budget](image-6.png)
-![set budget](image-9.png)
-
-This is a personal **Expense Tracker Application** built using **Python** and **Tkinter**. It allows users to easily add, manage, and visualize their daily expenses with both default and custom categories.
-
+This is a personal **Expense Tracker Application**.It allows users to easily add, manage, and visualize their daily expenses with both default and custom categories.
+# 🧾 Expense Tracker GUI (Python + Tkinter + Matplotlib + Pandas + JSON)
 ## 📌 Features
 
 - ✅ **Add Expenses** with amount, description, date, and category.
 - 🗂️ **Default and Custom Categories** supported.
-- 📆 **View by Period**: Filter expenses by today, last 7 days, or this month.
-- 💰 **Set & Check Budgets**: Define monthly budgets per category and get alerts when overspending.
+![Expense recorder system](image.png)
+- **Total expense summary 
+![Summary](image-1.png)
 - 📊 **Visualize Expenses**: View bar charts of your spending by category.
-- 🔍 **Search Functionality**: Search expenses by keyword or date.
+![Visualization](image-2a.png)
 - ⬆️ **Export to Excel (.xlsx)**.
+![Export to excel](image-2.png)
+- 📆 **View by Period**: Filter expenses by today, last 7 days, or this month.
+![view by period](image-3.png)
 - 📉 **View Highest & Lowest Expenses**.
+![highest lowest expense](image-4.png)
+- 🔍 **Search Functionality**: Search expenses by keyword or date.
+![search](image-8.png)
+- 💰 **Set & Check Budgets**: Define monthly budgets per category and get alerts when overspending.
+![budget](image-6.png)
+![set budget](image-9.png)
 - 🧩 **Category Management**: Add, edit, or delete custom categories.
+
+
 
 ## 🚀 How to Run
 
