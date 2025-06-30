@@ -94,5 +94,71 @@
         "description": "auto,train,taxi",
         "category": "Travel",
         "date": "2025-06-13"
+    },
+    {
+        "amount": 22.0,
+        "description": "pav",
+        "category": "Groceries",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 50.0,
+        "description": "Frankie",
+        "category": "Food",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 60.0,
+        "description": "Vada pav",
+        "category": "Food",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 10.0,
+        "description": "Fruity",
+        "category": "Food",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 122.0,
+        "description": "dmart",
+        "category": "Groceries",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 85.0,
+        "description": "water veggies",
+        "category": "Groceries",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 32.0,
+        "description": "Paneer",
+        "category": "Groceries",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 5.8,
+        "description": "milk",
+        "category": "Groceries",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 98.25,
+        "description": "Pasta",
+        "category": "Groceries",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 46.0,
+        "description": "kissan veggies",
+        "category": "Groceries",
+        "date": "2025-06-30"
+    },
+    {
+        "amount": 35.8,
+        "description": "zepto",
+        "category": "Groceries",
+        "date": "2025-06-30"
     }
 ]
