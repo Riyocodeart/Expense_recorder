@@ -160,5 +160,137 @@
         "description": "zepto",
         "category": "Groceries",
         "date": "2025-06-30"
+    },
+    {
+        "amount": 85.0,
+        "description": "instamart",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 122.0,
+        "description": "dmart",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 30.0,
+        "description": "dahi",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 24.0,
+        "description": "vim",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 38.0,
+        "description": "tomato",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 51.0,
+        "description": "veggies",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 169.0,
+        "description": "dmart",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 20.0,
+        "description": "roti cloth",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 48.0,
+        "description": "jeera",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 273.0,
+        "description": "zepto",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 27.0,
+        "description": "dahi",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 10.0,
+        "description": "dhaniya",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 37.0,
+        "description": "zepto",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 37.0,
+        "description": "oil ",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 112.0,
+        "description": "dmart",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 70.0,
+        "description": "kissan",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 70.0,
+        "description": "kissan",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 15.0,
+        "description": "garbage",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 51.0,
+        "description": "lizol",
+        "category": "Groceries",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 100.0,
+        "description": "seeema didi",
+        "category": "Bills",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 934.0,
+        "description": "wifi",
+        "category": "Bills",
+        "date": "2025-07-09"
+    },
+    {
+        "amount": 1000.0,
+        "description": "seema didi",
+        "category": "Bills",
+        "date": "2025-07-09"
     }
 ]
