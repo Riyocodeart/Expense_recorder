@@ -292,5 +292,17 @@
         "description": "seema didi",
         "category": "Bills",
         "date": "2025-07-09"
+    },
+    {
+        "amount": 34.0,
+        "description": "Tomatoes paneer",
+        "category": "Groceries",
+        "date": "2025-07-16"
+    },
+    {
+        "amount": 62.67,
+        "description": "Swiggy",
+        "category": "Groceries",
+        "date": "2025-07-16"
     }
 ]
